@@ -21,6 +21,10 @@ input[type="search"]::-webkit-search-cancel-button {
 	appearance: none;
 }
 
+button {
+	@apply cursor-pointer;
+}
+
 .input-field {
 	@apply bg-neutral-100 w-full px-3 py-2.5 border border-neutral-300 rounded-sm placeholder-neutral-400 focus:outline-hidden;
 }
@@ -30,11 +34,11 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .button-active {
-	@apply bg-rose-500 hover:bg-rose-600 text-white cursor-pointer;
+	@apply bg-rose-500 hover:bg-rose-600 text-white;
 }
 
 .button-nav {
-	@apply hover:bg-neutral-100 w-full h-10 px-1 flex items-center rounded-md cursor-pointer;
+	@apply hover:bg-neutral-100 w-full h-10 px-1 flex items-center rounded-md;
 }
 
 .button-nav span {
@@ -42,7 +46,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .button-rounded {
-	@apply hover:bg-neutral-100 w-full h-10 px-2 flex justify-between items-center rounded-full cursor-pointer;
+	@apply hover:bg-neutral-100 w-full h-10 px-2 flex justify-between items-center rounded-full;
 }
 
 .button-article {
