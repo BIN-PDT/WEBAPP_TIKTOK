@@ -25,6 +25,14 @@ button {
 	@apply cursor-pointer;
 }
 
+.hide-scrollbar {
+	scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
 .input-field {
 	@apply bg-neutral-100 w-full px-3 py-2.5 border border-neutral-300 rounded-sm placeholder-neutral-400 focus:outline-hidden;
 }
